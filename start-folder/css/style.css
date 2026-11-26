@@ -1,0 +1,86 @@
+
+/* ページ全体 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ヘッダー */
+header {
+    background-color: #243b55;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ナビゲーション */
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+/* メインコンテンツ */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* 各セクション */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+/* 自己紹介 */
+.profile {
+    text-align: center;
+}
+
+/* プロフィール画像 */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* 作品一覧 */
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* 作品画像 */
+.portfolio-items img {
+    width: 280px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* フッター */
+footer {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
